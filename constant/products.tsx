@@ -11,7 +11,7 @@ export const products = [
       "AI platform designed to supercharge student learning and exam prep.",
     avatar: "/studygen.svg",
     Icon: ({className}) => <NotebookTextIcon className={className}/>,
-    url: process.env.NEXT_PUBLIC_STUDY_GEN_URL || "#",
+    url: process.env.NEXT_PUBLIC_DASHBOARD_URL || "#",
     description: `
 Studygen AI is your intelligent learning companion, built to help students craft personalized study plans, generate smart notes, and access curated learning materials powered by AI. Whether you're preparing for competitive exams or mastering a new subject, Studygen adapts to your learning pace and style.
 
@@ -40,7 +40,7 @@ Studygen AI turns your study sessions into data-driven experiences, ensuring tha
   {
     id: 2,
     name: "Smart Work AI",
-    url: process.env.NEXT_PUBLIC_SMART_WORK_URL || "#",
+    url: process.env.NEXT_PUBLIC_DASHBOARD_URL || "#",
     title:
       "Boost workplace productivity with intelligent AI tools for professionals.",
     avatar: "/logo.svg",
@@ -73,7 +73,7 @@ With enterprise-grade security and customization, Professional AI brings the fut
   {
     id: 3,
     name: "Smart Build AI",
-    url: process.env.NEXT_PUBLIC_SMART_BUILD_URL || "#",
+    url: process.env.NEXT_PUBLIC_DASHBOARD_URL || "#",
     title: "Data-driven intelligence for business growth and decision-making.",
     avatar: "/logo.svg",
     Icon: ({className}) => <Handshake className={className}/>,

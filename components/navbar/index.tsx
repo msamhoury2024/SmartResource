@@ -91,28 +91,8 @@ const Navbar = ({
   menu = [
     { title: "Home", url: "/" },
     {
-      title: "Products",
-      url: "#",
-      items: [
-        {
-          title: "Smart Work",
-          description: "AI-powered solutions for Professionals",
-          icon: <Briefcase className="size-5 shrink-0" />,
-          url: process.env.NEXT_PUBLIC_SMART_WORK_URL || "#",
-        },
-        {
-          title: "Smart Build",
-          description: "AI-powered solutions for Businesses",
-          icon: <Handshake className="size-5 shrink-0" />,
-          url: process.env.NEXT_PUBLIC_SMART_BUILD_URL || "#",
-        },
-        {
-          title: "StudyGen AI",
-          description: "AI-powered solutions for Students",
-          icon: <NotebookTextIcon className="size-5 shrink-0" />,
-          url: process.env.NEXT_PUBLIC_STUDY_GEN_URL || "#",
-        },
-      ],
+      title: "Dashboard",
+      url: process.env.NEXT_PUBLIC_DASHBOARD_URL || "#",
     },
     { title: "Contact Us", url: "/contact" },
     { title: "Blog", url: "/blog" },
